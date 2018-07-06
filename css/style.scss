@@ -1,0 +1,47 @@
+//SmartPress
+@import '_cosmetics.scss';
+fieldset {
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    min-width: 200px;
+    min-height: 200px;
+    form {
+        top: 0;
+        position: absolute;
+        padding-top: 10px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    button {
+        margin-top: 5px;
+        padding: 8px 40px;
+    }
+    input {
+        width: 250px;
+        margin: 5px;
+        height: 40px;
+    }
+}
+
+#login-form {
+    margin: 150px auto;
+    width: 330px;
+    h1 {
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        text-align: center;
+        width: 250px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+}
+
+.some-form__hint{
+    display: none;;
+}

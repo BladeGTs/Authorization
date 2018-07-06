@@ -1,0 +1,56 @@
+@import "_fonts.scss";
+
+body{
+    background: url(../img/bg.png);
+    font: 100%/1.5em sans-serif;
+    font-family: "RobotoBlack";
+    
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        color: #1dabb8;
+    }
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+}
+
+input {
+    padding: 5px 15px;
+	border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background: #2196f3;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+
+    &:hover{
+        background: darken($color: #2196f3, $amount: 10)
+    }
+
+    &:active{
+        transform: translateY(2px);
+    }
+}
+
+form{
+    background: #90caf9;
+}
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;	
+}
+.clearfix:after { clear: both; }

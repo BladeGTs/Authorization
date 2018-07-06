@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'RobotoBlack';
+  src: url("../fonts/RobotoBlack/RobotoBlack.ttf");
+}
+
+body {
+  background: url(../img/bg.png);
+  font: 100%/1.5em sans-serif;
+  font-family: "RobotoBlack";
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1dabb8;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+}
+
+input {
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  background: #2196f3;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background: #0c7cd5;
+}
+
+button:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+form {
+  background: #90caf9;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+fieldset {
+  padding-top: 50px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+fieldset form {
+  top: 0;
+  position: absolute;
+  padding-top: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+fieldset button {
+  margin-top: 5px;
+  padding: 8px 40px;
+}
+
+fieldset input {
+  width: 250px;
+  margin: 5px;
+  height: 40px;
+}
+
+#login-form {
+  margin: 150px auto;
+  width: 330px;
+}
+
+#login-form h1 {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 250px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.some-form__hint {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
