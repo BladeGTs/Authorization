@@ -12,10 +12,10 @@
     <div id="login-form">
         <h1>Авторизация</h1>
         <fieldset>
-            <form action="" method="" class"form js-form-validate">
+            <form action="mylogin.php" method="POST" value = $login class = "form js-form-validate">
                 <input type="login" name="login" required  placeholder="Логин" data-validate>
                 <input type="password" name="password" required placeholder="Пароль" data-validate>
-                <button type="submit" id="enter">Войти</button>
+                <button type="submit" name="submit" id="enter">Войти</button>
                 <footer class="clearfix">
                     <p><a href="#">Забыли пароль?</a></p>
                 </footer>
